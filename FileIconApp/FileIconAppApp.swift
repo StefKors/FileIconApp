@@ -12,6 +12,8 @@ struct FileIconAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .navigationSubtitle("drop file")
         }
+//        .windowToolbarStyle(.unified)
     }
 }
