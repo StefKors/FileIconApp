@@ -20,6 +20,7 @@
 		8A3E64782BA0C99900EF16AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3E647B2BA0C99900EF16AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A3E647D2BA0C99900EF16AE /* FileIconApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FileIconApp.entitlements; sourceTree = "<group>"; };
+		8AE9D0422BA1BC8000A3EC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		8A3E64732BA0C99900EF16AE /* FileIconApp */ = {
 			isa = PBXGroup;
 			children = (
+				8AE9D0422BA1BC8000A3EC51 /* Info.plist */,
 				8A3E64742BA0C99900EF16AE /* FileIconAppApp.swift */,
 				8A3E64762BA0C99900EF16AE /* ContentView.swift */,
 				8A3E64782BA0C99900EF16AE /* Assets.xcassets */,
@@ -279,6 +281,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FileIconApp/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,6 +311,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FileIconApp/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
