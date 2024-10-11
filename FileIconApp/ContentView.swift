@@ -90,9 +90,9 @@ struct FileIconView: View {
                 IconView(image: appIcon, name: url.lastPathComponent.fileName(), type: "customIcon")
             }
 
-            if let appIcon = url.effectiveIcon {
-                IconView(image: appIcon, name: url.lastPathComponent.fileName(), type: "effectiveIcon")
-            }
+//            if let appIcon = url.effectiveIcon {
+//                IconView(image: appIcon, name: url.lastPathComponent.fileName(), type: "effectiveIcon")
+//            }
         }
     }
 }
